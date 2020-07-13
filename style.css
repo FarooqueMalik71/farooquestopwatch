@@ -1,0 +1,103 @@
+
+body{
+  
+  background: rgb(214, 214, 214);
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+
+
+.main{ 
+  max-width: 575px;
+  background-color: lightgray;
+  width: 300px;
+  height: 450px;
+  border-radius: 20%;
+  box-shadow: -8px -8px 20px 0 rgba(255, 255, 255, 0.9),
+    8px 8px 20px 0 rgba(0, 0, 0, 0.3);
+  margin: 0 35%;
+  padding: 32px 16px;
+  flex-direction: column;
+  
+  
+}
+.cla{
+  font-size: xx-large;
+  margin-top: 35px;
+  font-weight: bold;
+  color:#841b2d ;
+}
+
+.stop{
+  font-size: 31px;
+  font-style: italic;
+  color: #841b2d;
+  text-align: center;
+  text-shadow: 2px 2px 5px gray;
+  text-shadow: 20%;
+  box-shadow: -7px -7px 20px 0 rgba(255, 255, 255, 0.9),
+  7px 7px 20px 0 rgba(0, 0, 0, 0.3);
+}
+
+.heading{
+  text-align: center;
+  background: lightgrey;
+   border-bottom: 40%;
+   box-shadow: -7px -7px 20px 0 rgba(255, 255, 255, 0.9),
+    7px 7px 20px 0 rgba(0, 0, 0, 0.3);
+  justify-content: center;
+   display: flex;
+   font-size: 10pt;
+  margin:  10px;
+  margin-top: 70px; 
+  
+  
+}
+.head{
+  font-style: normal;
+  font-size: 35px;
+  width: 30px;
+  padding: 10px;
+ color: darkblue; 
+ 
+  
+}
+
+
+
+
+.bottam1{
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  
+  
+}
+
+.btn:hover {
+  transform: scale(1.1);
+  }
+
+
+.btn{
+  color: #841b2d;
+  font-weight: bolder;
+ font-size: 25px;
+  background: rgb(214, 214, 214);
+  margin-top: 100px;
+   width: 90px;
+   height: 70px;
+ float: left;
+ margin: 10px;
+ border-radius: 50%;
+ box-shadow: -7px -7px 20px 0 rgba(255, 255, 255, 0.9),
+    7px 7px 20px 0 rgba(0, 0, 0, 0.3);
+    transition: 0.2s;
+ 
+ 
+
+ }
